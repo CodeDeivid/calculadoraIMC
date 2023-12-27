@@ -12,4 +12,4 @@ Minha Calculadora de IMC é uma ferramenta simples que usa altura e peso para av
 **Autor: [Deivid Micael](https://www.linkedin.com/in/deivid-micael-santos-silva/)**
 
 ## Live site
-**🔗️ https://.vercel.app/**
+**🔗️ https://calculadora-imc-git-master-codedeivid.vercel.app/**
