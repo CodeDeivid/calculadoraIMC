@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Calculadora De IMC</title>
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="src/img/personal-trainer.svg" />
+    </div>
+
+    <div class="calculator">
+      <h1>Calculadora - IMC</h1>
+      <div class="line"></div>
+      <div class="input-group">
+        <label for="weight">Peso em kg</label>
+        <div class="field-group">
+          <input
+            type="text"
+            name="weight"
+            class="input-field"
+            id="weight"
+            placeholder="60"
+            autocomplete="off"
+          />
+          <div class="icon">
+            <i class="fa-solid fa-weight-hanging" aria-hidden="true"></i>
+          </div>
+          <p class="measure">Kg</p>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="height">Altura em centímetros</label>
+        <div class="field-group">
+          <input
+            type="text"
+            name="height"
+            class="input-field"
+            id="height"
+            placeholder="165"
+            autocomplete="off"
+          />
+          <div class="icon">
+            <i class="fa-solid fa-ruler" aria-hidden="true"></i>
+          </div>
+          <p class="measure">cm</p>
+        </div>
+      </div>
+
+      <button>Calcular</button>
+
+      <div class="result-container">
+        <div class="result">
+          <div class="points">
+            <span>20,81</span>
+            <h5>Seu IMC</h5>
+          </div>
+          <h4 class="info-text">Você está no peso ideal!</h4>
+        </div>
+        <span class="info">Mais informações obre o IMC<i class="fa-solid fa-share-from-square"></i></span>
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
